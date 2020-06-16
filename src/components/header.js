@@ -47,7 +47,6 @@ const useStyle = makeStyles(theme => ({
 const Header = () => {
   const classes = useStyle();
   const [open, setOpen] = React.useState(false);
-  //const [input,setInput] = React.useState('');
 
   const handleOpen = () => {
     setOpen(true);
